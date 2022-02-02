@@ -1,1 +1,1 @@
-web:python Virtual_Mouse.py
+web: gunicorn Virtual_Mouse:gc1.start()
