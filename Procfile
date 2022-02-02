@@ -1,1 +1,2 @@
-web: gunicorn Virtual_Mouse.py:GestureController()
+web: python Virtual_Mouse.py
+worker: python Virtual_Mouse.py 
